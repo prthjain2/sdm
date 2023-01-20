@@ -1,0 +1,33 @@
+create server.js
+npm install init
+npm install express
+node server.js
+-----------------------------
+Amazon Linux command on AWS EC2
+---------------------------------------
+0.sudo yum update
+1.sudo yum install docker // sudo install git
+2.sudo systemctl start doccker
+3.sudo systemctl enable docker
+ git clone <link>
+ cd to <application>
+ sudo docker build -t <name of image> .
+ sudo docker run -d -p 8000:3000 <image name>
+4.sudo docker images (sudo docker pull nginx)
+5.sudo systemctl status docker
+6.sudo yum install git
+7.git clone <link> //sudo rm -r <Solution>
+8.ls --> check file
+9.cd Solution
+10.sudo docker build -t <name> .
+11.sudo docker run -d -p 2800:3000 <img name/image id> ( sudo docker run -d -p 8000:80 nginx)
+12.sudo docker ps
+
+
+--------------------------------
+git clone
+cd
+git status
+git add .
+git commit -m "new file"
+git push
